@@ -23,17 +23,17 @@ Follow these instructions to get the project up and running on your local machin
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/binus-web-programming-TQCA/tk2.git
+   git clone https://github.com/AstoMiwanda/BINUS-TP2.git
 
 2. Navigate to the project directory:
 
     ```shell
-   cd tk2
+   cd BINUS-TP2
 
 3. Install PHP dependencies:
 
     ```shell
-   cd tk2
+   composer install
 
 4. Create a copy of the .env.example file and rename it to .env:
 
@@ -50,10 +50,15 @@ Follow these instructions to get the project up and running on your local machin
     ```shell
    make migrate
 
-7. Run project:
+7. Run php server:
 
     ```shell
-   make run
+   make serve
+
+8. Run vite server: open new terminal and run:
+
+    ```shell
+   make dev
 
 ## About Laravel
 
